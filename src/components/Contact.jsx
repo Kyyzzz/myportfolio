@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter, Facebook } from 'lucide-react';
 
 const Contact = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -80,19 +80,19 @@ const Contact = () => {
     {
       icon: <Github className="w-5 h-5" />,
       label: 'GitHub',
-      href: 'https://github.com/yourusername',
+      href: 'https://github.com/Kyyzzz',
       color: 'hover:text-gray-900 dark:hover:text-white'
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/yourusername',
+      href: 'https://www.linkedin.com/in/paulo-languido-4a891436b/',
       color: 'hover:text-blue-600'
     },
     {
-      icon: <Twitter className="w-5 h-5" />,
-      label: 'Twitter',
-      href: 'https://twitter.com/yourusername',
+      icon: <Facebook className="w-5 h-5" />,
+      label: 'Facebook',
+      href: 'https://www.facebook.com/galagarpaulo',
       color: 'hover:text-blue-400'
     }
   ];

@@ -18,12 +18,12 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: <Github className="w-5 h-5" />,
-      href: 'https://github.com/yourusername',
+      href: 'https://github.com/Kyyzzz',
       label: 'GitHub',
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
-      href: 'https://linkedin.com/in/yourusername',
+      href: 'https://www.linkedin.com/in/paulo-languido-4a891436b/',
       label: 'LinkedIn',
     },
     {

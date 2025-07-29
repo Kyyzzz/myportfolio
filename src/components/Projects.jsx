@@ -236,7 +236,7 @@ const Projects = () => {
             }`}
           >
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/Kyyzzz"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-lg px-8 py-3 inline-flex items-center"

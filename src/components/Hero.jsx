@@ -47,7 +47,7 @@ const Hero = () => {
 
             {/* Role */}
             <h2 className="text-2xl md:text-4xl lg:text-5xl font-light text-gray-700 dark:text-gray-200 mb-8 animate-slide-up animation-delay-200">
-              Full Stack Developer
+              Junior Software Developer
             </h2>
 
             {/* Description */}
@@ -75,7 +75,7 @@ const Hero = () => {
             {/* Social Links */}
             <div className="flex justify-center space-x-6 mb-16 animate-fade-in animation-delay-600">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/Kyyzzz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-200 hover:scale-110"
@@ -84,7 +84,7 @@ const Hero = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/paulo-languido-4a891436b/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-200 hover:scale-110"
@@ -93,7 +93,7 @@ const Hero = () => {
                 <Linkedin size={24} />
               </a>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:languidopaulo@gmail.com"
                 className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-200 hover:scale-110"
                 aria-label="Email"
               >

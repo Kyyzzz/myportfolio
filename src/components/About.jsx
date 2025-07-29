@@ -88,7 +88,7 @@ const About = () => {
                 </h3>
                 <div className="space-y-4 text-gray-600 dark:text-gray-300 leading-relaxed">
                   <p>
-                    I'm an aspiring full-stack developer with a strong passion for building 
+                    I'm an aspiring junior software developer with a strong passion for building 
                     digital solutions that solve real-world problems. I enjoy turning complex 
                     ideas into clean, user-friendly designs and am eager to apply my skills 
                     in a professional environment for the first time.
