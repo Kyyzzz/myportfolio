@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter, Facebook } from 'lucide-react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -44,12 +45,30 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
+    // EmailJS configuration
+    const serviceID = 'service_9xxan2f'; // Replace with your EmailJS service ID
+    const templateID = 'template_ftyx3sm'; // Replace with your EmailJS template ID
+    const publicKey = 'bWr_hR9REXrl6xRv_'; // Replace with your EmailJS public key
+    
+    // Template params to send to EmailJS
+    const templateParams = {
+      from_name: formData.name,
+      from_email: formData.email,
+      subject: formData.subject,
+      message: formData.message,
+      to_email: 'languidop5@gmail.com'
+    };
+    
+    try {
+      await emailjs.send(serviceID, templateID, templateParams, publicKey);
       alert('Thank you for your message! I\'ll get back to you soon.');
       setFormData({ name: '', email: '', subject: '', message: '' });
+    } catch (error) {
+      console.error('Failed to send email:', error);
+      alert('Oops! Something went wrong. Please try again or email me directly at languidop5@gmail.com');
+    } finally {
       setIsSubmitting(false);
-    }, 1000);
+    }
   };
 
   const contactInfo = [

@@ -65,7 +65,7 @@ const Hero = () => {
                 View My Work
               </button>
               <a
-                href="mailto:your.email@example.com"
+                href="#contact"
                 className="btn-secondary text-lg px-8 py-3 inline-block"
               >
                 Get In Touch

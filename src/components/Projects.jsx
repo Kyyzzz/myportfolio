@@ -31,10 +31,10 @@ const Projects = () => {
       id: 1,
       title: 'E-Commerce Platform', 
       description: 'A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.',
-      image: '/assets/images/ecommerce.png',
+      image: '/assets/images/ShoeMart.PNG',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/yourusername/ecommerce',
+      liveUrl: 'https://shoemart-frontend.vercel.app/',
+      githubUrl: 'https://github.com/Kyyzzz/shoemart-frontend',
       type: 'web',
       featured: false
     },

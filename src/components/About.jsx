@@ -111,14 +111,14 @@ const About = () => {
                   isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
                 }`}
               >
-                <div className="text-center">
+                {/* <div className="text-center">
                   <div className="text-3xl font-bold text-gradient mb-2">0+</div>
                   <div className="text-gray-600 dark:text-gray-300">Projects Completed</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-gradient mb-2">0+</div>
                   <div className="text-gray-600 dark:text-gray-300">Years Experience</div>
-                </div>
+                </div> */}
               </div>
             </div>
 
